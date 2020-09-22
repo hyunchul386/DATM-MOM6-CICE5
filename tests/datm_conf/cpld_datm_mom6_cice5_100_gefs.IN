@@ -9,6 +9,7 @@ export OCNRES='100'
 
 # MOM6 fixed input
 cp    @[RTPWD]/MOM6_FIX_100deg/* ./INPUT
+cp /scratch1/NCEPDEV/stmp2/Hyun-Chul.Lee/S2S_RT/MOM_INPUT_100deg/* ./INPUT
 
 # CICE5 fixed input
 cp    @[RTPWD]/CICE_FIX_mx100/grid_cice_NEMS_mx100.nc .
